@@ -13,6 +13,10 @@
 		4D36CFB11BB3D0CD002B2C70 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36CFB01BB3D0CD002B2C70 /* TutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		4D83BAB21BB277B4005A7FD0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83BAB11BB277B4005A7FD0 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 		4D83BAB41BB2799D005A7FD0 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83BAB31BB2799D005A7FD0 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4DCE3B8E1BB72A2E000B6FD8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3B8D1BB72A2E000B6FD8 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4DCE3B901BB7466F000B6FD8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3B8F1BB7466F000B6FD8 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4DCE3B921BB74A24000B6FD8 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3B911BB74A24000B6FD8 /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4DCE3B941BB7523E000B6FD8 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE3B931BB7523E000B6FD8 /* GetStartedViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		4DF5772A1BB274FB0050D004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF577291BB274FB0050D004 /* AppDelegate.swift */; };
 		4DF5772C1BB274FB0050D004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5772B1BB274FB0050D004 /* ViewController.swift */; };
 		4DF5772F1BB274FB0050D004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5772D1BB274FB0050D004 /* Main.storyboard */; };
@@ -46,6 +50,10 @@
 		4D36CFB01BB3D0CD002B2C70 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		4D83BAB11BB277B4005A7FD0 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		4D83BAB31BB2799D005A7FD0 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		4DCE3B8D1BB72A2E000B6FD8 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = Carousel/SignInViewController.swift; sourceTree = "<group>"; };
+		4DCE3B8F1BB7466F000B6FD8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountViewController.swift; path = Carousel/CreateAccountViewController.swift; sourceTree = "<group>"; };
+		4DCE3B911BB74A24000B6FD8 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermsViewController.swift; path = Carousel/TermsViewController.swift; sourceTree = "<group>"; };
+		4DCE3B931BB7523E000B6FD8 /* GetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetStartedViewController.swift; path = Carousel/GetStartedViewController.swift; sourceTree = "<group>"; };
 		4DF577261BB274FB0050D004 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF577291BB274FB0050D004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DF5772B1BB274FB0050D004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +97,10 @@
 		4DF5771D1BB274FB0050D004 = {
 			isa = PBXGroup;
 			children = (
+				4DCE3B931BB7523E000B6FD8 /* GetStartedViewController.swift */,
+				4DCE3B911BB74A24000B6FD8 /* TermsViewController.swift */,
+				4DCE3B8F1BB7466F000B6FD8 /* CreateAccountViewController.swift */,
+				4DCE3B8D1BB72A2E000B6FD8 /* SignInViewController.swift */,
 				4D36CFAA1BB3966A002B2C70 /* ImageFeedViewController.swift */,
 				4DF577281BB274FB0050D004 /* Carousel */,
 				4DF5773D1BB274FB0050D004 /* CarouselTests */,
@@ -273,11 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCE3B921BB74A24000B6FD8 /* TermsViewController.swift in Sources */,
+				4DCE3B901BB7466F000B6FD8 /* CreateAccountViewController.swift in Sources */,
 				4DF5772C1BB274FB0050D004 /* ViewController.swift in Sources */,
+				4DCE3B941BB7523E000B6FD8 /* GetStartedViewController.swift in Sources */,
 				4D36CFAB1BB3966A002B2C70 /* ImageFeedViewController.swift in Sources */,
 				4D36CFB11BB3D0CD002B2C70 /* TutorialViewController.swift in Sources */,
 				4D36CFAF1BB3CB06002B2C70 /* SettingsViewController.swift in Sources */,
 				4D83BAB21BB277B4005A7FD0 /* Common.swift in Sources */,
+				4DCE3B8E1BB72A2E000B6FD8 /* SignInViewController.swift in Sources */,
 				4D36CFAD1BB3C947002B2C70 /* ConversationsViewController.swift in Sources */,
 				4DF5772A1BB274FB0050D004 /* AppDelegate.swift in Sources */,
 				4D83BAB41BB2799D005A7FD0 /* IntroViewController.swift in Sources */,
