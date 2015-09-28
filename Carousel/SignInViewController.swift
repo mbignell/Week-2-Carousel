@@ -54,7 +54,7 @@ class SignInViewController: UIViewController {
 
         
          animateViewIn.frame.origin = CGPoint(x: self.animateViewIn.frame.origin.x, y: -40)
-         UIView.animateWithDuration(0.6, animations: {
+         UIView.animateWithDuration(0.5, animations: {
             self.animateViewIn.frame.origin = CGPoint(x: self.animateViewIn.frame.origin.x, y:self.animateViewIn.frame.origin.y + 90)
             self.animateViewIn.alpha = 1
             self.animateViewIn.transform = CGAffineTransformMakeScale(1, 1)

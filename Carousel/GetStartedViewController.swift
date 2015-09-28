@@ -9,11 +9,41 @@
 import UIKit
 
 class GetStartedViewController: UIViewController {
-
+    
+    let progress = NSUserDefaults.standardUserDefaults()
+    
+    @IBOutlet weak var checkBoxOne: UIImageView!
+    @IBOutlet weak var checkBoxTwo: UIImageView!
+    @IBOutlet weak var checkBoxThree: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        progress.setValue("visited", forKey: "seenGoals")
+
+        
         // Do any additional setup after loading the view.
+        if let step1 = progress.stringForKey("stepOne"){
+            checkBoxOne.highlighted = true
+        }else{
+            //Nothing stored in NSUserDefaults yet. Set a value.
+            print("nope")
+        }
+        
+        if let step2 = progress.stringForKey("stepTwo"){
+            checkBoxTwo.highlighted = true
+        }else{
+            //Nothing stored in NSUserDefaults yet. Set a value.
+            print("nope")
+        }
+        
+        if let step3 = progress.stringForKey("stepThree"){
+            checkBoxThree.highlighted = true
+        }else{
+            //Nothing stored in NSUserDefaults yet. Set a value.
+            print("nope")
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
